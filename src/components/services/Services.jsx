@@ -5,14 +5,14 @@ import data from  "../../db/data"
 
 const Services = () => {
 
-  const arrayOfList = data.lorems.map((value,index)=>{
-    return (
-        <li key={index}>
-          <BiCheck className='service_list-icon'/>
-          <p>{value}</p>
-        </li>
-    )
-  })
+  const arrayOfListt = (pos) => {
+    return data.services[pos].map((value,index) => (
+      <li key={index}>
+        <BiCheck className='service_list-icon'/>
+        <p>{value}</p>
+      </li>
+    ));
+  };
 
   const arrayOfArticles = data.title.map((value,index)=>{
     return (
@@ -21,7 +21,7 @@ const Services = () => {
             <h3>{value}</h3>
           </div>
           <ul className='service_list'>
-            {arrayOfList}
+            {arrayOfListt(index)}
           </ul>
         </article>
     )

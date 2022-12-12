@@ -1,7 +1,32 @@
 const data = {
     lorems: ["Lorem ipsum dolor, sit amet consectetur adipisicing elit.","Lorem ipsum dolor, sit amet consectetur adipisicing elit.","Lorem ipsum dolor, sit amet consectetur adipisicing elit.","Lorem ipsum dolor, sit amet consectetur adipisicing elit.","Lorem ipsum dolor, sit amet consectetur adipisicing elit."],
     
-    title: ["UI/UX Design","Web Devolpment","Content Creation"],
+    title: ["UI/UX Design","Frontend Devolpment","Backend Devolpment"],
+
+    services: [
+        [
+            "Custom design",
+            "Emphaty",
+            "Collaboration", 
+            "Design thinking",
+            "Prototyping"
+        ],
+        [
+            "Ensure responsive design",
+            "Latest Technologies", 
+            "Take Care of SEO",
+            "Performance",
+            "Speedy development",
+            "Connect with Rest API"
+        ],
+        [
+            "High-quality code",
+            "Assess efficiency and speed", 
+            "Build and maintain websites",
+            "Troubleshoot and debug"
+        ],
+
+    ],
 
     dataFrontend: [
         {
