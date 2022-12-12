@@ -29,18 +29,18 @@ const About = () => {
             <article className='about_card'>
               <FiUsers className='about_icon'/>
               <h5>Clients</h5>
-              <small>Lorem, ipsum dolor.</small>
+              <small>Worked with national and international clients</small>
             </article>
 
             <article className='about_card'>
               <VscFolderLibrary className='about_icon'/>
               <h5>Projects</h5>
-              <small>Lorem, ipsum dolor.</small>
+              <small>More than 50 projects done</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut quia itaque optio sit omnis quam consectetur deleniti fugit nulla. Placeat obcaecati iste voluptatibus cupiditate temporibus labore enim eum odit sit.
+            I'm currently working in the software development using the most advanced tools at my company and studying in the National Technology University in Argentina.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

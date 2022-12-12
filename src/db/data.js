@@ -6,23 +6,23 @@ const data = {
     dataFrontend: [
         {
         title: "HTML",
-        body: "Intermediate",
+        body: "Advanced",
     },
     {
         title: "CSS",
-        body: "Intermediate",
+        body: "Advanced",
     },
     {
         title: "JavaScript",
-        body: "Intermediate",
+        body: "Advanced",
     },
     {
         title: "Material UI",
-        body: "Intermediate",
+        body: "Advanced",
     },
     {
         title: "React",
-        body: "Experienced",
+        body: "Advanced",
     },
     ],
 
@@ -41,10 +41,10 @@ const data = {
         },
         {
             title: "Python",
-            body: "Intermediate"
+            body: "Advanced"
         },
         {
-            title: "Java",
+            title: "Django",
             body: "Intermediate"
         },
     ]
