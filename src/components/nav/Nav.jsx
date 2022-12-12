@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import "./nav.css"
 import {AiOutlineHome} from "react-icons/ai"
@@ -14,7 +13,7 @@ import {AiFillCaretDown} from "react-icons/ai"
 
 const Nav = () => {
   const [activeNav,setActiveNav] = useState("")
-  const about = "#about", home = "#", experience = "#experience", services="#services",contact="#contact",footer="#footer";
+  const about = "#about", home = "#top", experience = "#experience", services="#services",contact="#contact",footer="#footer";
   
   // const handleClick = (params)=>{
   //   setActiveNav(params)
