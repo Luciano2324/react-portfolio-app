@@ -23,7 +23,7 @@ const data = [
     id: 3, 
     image : IMG3,  
     title: 'Admin Dashboard using Tailwind and React' , 
-    github: 'https://github.com/Luciano2324', 
+    github: 'https://github.com/Luciano2324/react-admin-dashboard-app', 
     demo: 'https://lb-dashboard.netlify.app/'
   },
 ]
